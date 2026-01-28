@@ -1,0 +1,23 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "new-api-proxy-updater2",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-08-29",
+	"observability": {
+		"enabled": true
+	},
+	"vars": {
+		"BASE_URL": "https://api.974584.xyz",
+		"ADMIN_ID": "2",
+		"ADMIN_TOKEN": "e/bImE9XmZUAM0gAuAPu3HiUN0iVLg==",
+		"CHANNEL_IDS": "[71]",
+		// "TopChina/proxy-list",
+		// "gitrecon1455/fresh-proxy-list"
+		// "zloi-user/hideip.me"
+		// "elliottophellia/proxylist"
+		"PROXY_SOURCE": "TopChina/proxy-list"
+	},
+	"triggers": {
+		"crons": ["*/20 * * * *"]
+	}
+}
